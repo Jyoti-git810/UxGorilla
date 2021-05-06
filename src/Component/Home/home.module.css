@@ -1,0 +1,25 @@
+.productInfoList{
+    width: 70%;
+    margin:  0 auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.productCard{
+    width: 25%;
+    margin: 4%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.cardData{
+    padding: 32px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+.cardData span:nth-child(2){
+    font-weight: 700;
+}
+.productCard img{
+    width: 100%;
+    height: 70%;
+}
